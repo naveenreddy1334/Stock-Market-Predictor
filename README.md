@@ -33,7 +33,7 @@ AI-powered stock market prediction dashboard combining traditional technical ana
 ```
 └── Stock-Market-Predictor/
     ├── README.md
-    ├── main.py                     # Main application file
+    ├── ui7.py                     # Main application file
     └── requirements.txt
        
 ```
@@ -79,7 +79,7 @@ Open http://localhost:7860 in your browser.
 
 ## **AI Setup**
 
-### **Ollama Integration (Optional)**
+### **Ollama Integration**
 For enhanced AI features:
 
 1. **Download Ollama**: Visit [ollama.ai](https://ollama.ai/download)
