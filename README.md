@@ -1,6 +1,6 @@
-# **STOCK-ANALYSIS-AI**
+# **STOCK-MARKET-PREDICTOR**
 
-This repository contains an Advanced Stock Analysis system that provides AI-powered technical analysis and real-time market intelligence using machine learning and Large Language Models to analyze stock data and generate investment recommendations.
+This repository contains an Advanced Stock Market Prediction system that provides AI-powered technical analysis and real-time market intelligence using machine learning and Large Language Models to analyze stock data and generate investment recommendations.
 
 **Learn More**
 * [Gradio Documentation](https://gradio.app/docs/) - ML web interfaces
@@ -17,7 +17,7 @@ This repository contains an Advanced Stock Analysis system that provides AI-powe
 * [License](#license)
 
 ## **Overview**
-AI-powered stock analysis dashboard combining traditional technical analysis with modern AI capabilities. Features ML price predictions, sentiment analysis, and intelligent chat-based stock insights.
+AI-powered stock market prediction dashboard combining traditional technical analysis with modern AI capabilities. Features ML price predictions, sentiment analysis, and intelligent chat-based stock insights for Indian stock markets (NSE/BSE).
 
 ## **Features**
 * **🤖 AI Chat Assistant**: Intelligent responses using Ollama LLMs
@@ -31,11 +31,11 @@ AI-powered stock analysis dashboard combining traditional technical analysis wit
 ## **Project Structure**
 
 ```
-└── Stock-Analysis-AI/
+└── Stock-Market-Predictor/
     ├── README.md
-    ├── ui7.py                     # Main application file
-    ├── requirements.txt
-    
+    ├── main.py                     # Main application file
+    └── requirements.txt
+       
 ```
 
 ### **Key Components**
@@ -55,8 +55,8 @@ AI-powered stock analysis dashboard combining traditional technical analysis wit
 ### **Installation**
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/Stock-Analysis-AI
-cd Stock-Analysis-AI
+git clone https://github.com/naveenreddy1334/Stock-Market-Predictor
+cd Stock-Market-Predictor
 ```
 
 2. Install dependencies:
@@ -72,10 +72,10 @@ python main.py
 Open http://localhost:7860 in your browser.
 
 ### **Basic Workflow**
-1. Enter stock symbol (e.g., RELIANCE, TCS, INFY)
+1. Enter Indian stock symbol (e.g., RELIANCE, TCS, INFY)
 2. Select exchange (NSE/BSE)
 3. Click "🚀 Start Analysis"
-4. View results and chat with AI
+4. View ML predictions and chat with AI
 
 ## **AI Setup**
 
