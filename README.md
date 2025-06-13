@@ -1,56 +1,112 @@
-# Stock Price and Signal Predictor
+# **STOCK-ANALYSIS-AI**
 
-This Python project provides a comprehensive framework for analyzing stock data, predicting price movements, and generating actionable trading signals. Leveraging machine learning and technical analysis, the `StockAnalyzer` class combines historical stock data with advanced algorithms to assist traders and investors in making informed decisions.
+This repository contains an Advanced Stock Analysis system that provides AI-powered technical analysis and real-time market intelligence using machine learning and Large Language Models to analyze stock data and generate investment recommendations.
 
----
+**Learn More**
+* [Gradio Documentation](https://gradio.app/docs/) - ML web interfaces
+* [Ollama Documentation](https://ollama.ai/docs) - Local LLMs
+* [yfinance Documentation](https://pypi.org/project/yfinance/) - Yahoo Finance API
 
-## Features
+## **Table of Contents**
+* [Overview](#overview)
+* [Features](#features)
+* [Project Structure](#project-structure)
+* [Getting Started](#getting-started)
+* [AI Setup](#ai-setup)
+* [Contributing](#contributing)
+* [License](#license)
 
-1. **Data Fetching**: Retrieve historical stock data from Yahoo Finance using the `yfinance` library.
-2. **Technical Indicators**: Calculate various indicators like RSI, MACD, Bollinger Bands, SMA, and more.
-3. **Machine Learning Models**:
-   - **Classification Model**: Predict the direction of price movement (up or down).
-   - **Regression Model**: Predict the next day's closing price.
-4. **Volatility Analysis**: Calculate annualized volatility.
-5. **Support & Resistance Levels**: Identify critical price levels.
-6. **Trading Signals**: Provide buy, sell, or hold recommendations based on predictions.
-7. **Model Persistence**: Save and load trained models for reuse.
+## **Overview**
+AI-powered stock analysis dashboard combining traditional technical analysis with modern AI capabilities. Features ML price predictions, sentiment analysis, and intelligent chat-based stock insights.
 
+## **Features**
+* **🤖 AI Chat Assistant**: Intelligent responses using Ollama LLMs
+* **📊 Technical Analysis**: RSI, MACD, Bollinger Bands, Moving Averages
+* **📈 Price Predictions**: Random Forest ML models for forecasting
+* **📰 News Sentiment**: Real-time sentiment scoring
+* **🎯 Trading Signals**: Buy/sell/hold recommendations
+* **📊 Interactive Charts**: Price trends and volume analysis
+* **💰 Risk Assessment**: Volatility and support/resistance levels
 
----
-## Setting Up a Virtual Environment
+## **Project Structure**
 
-Using a virtual environment is a good practice to isolate project dependencies and avoid conflicts with system-wide packages.
+```
+└── Stock-Analysis-AI/
+    ├── README.md
+    ├── main.py                     # Main application file
+    ├── requirements.txt
+    └── assets/
+        └── charts/                # Generated chart outputs
+```
 
-### Steps to Create and Activate a Virtual Environment
+### **Key Components**
+* **StockAnalyzer Class** - Core ML engine for technical analysis
+* **OllamaManager Class** - AI chat functionality
+* **Technical Indicators** - RSI, MACD, Bollinger Bands, Moving Averages
+* **Gradio Interface** - User-friendly web interface
 
-1. **Create the Virtual Environment**:
-   Run the following command in the root directory of your project:
-   ```bash
-   python -m venv venv
-2. **Activate the Virtual Environment:**
-   ```bash
-   # On Windows:
-      venv\Scripts\activate
-   
-   # On Mac/Linux:
-      source venv/bin/activate
-   
+## **Getting Started**
 
----
+### **Prerequisites**
+* Python 3.8+
+* pip package manager
+* Internet connection for real-time data
+* Ollama (optional, for AI features)
 
-## Installation
+### **Installation**
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/Stock-Analysis-AI
+cd Stock-Analysis-AI
+```
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/naveenreddy1334/Stock-Market-Prediction.git
-   cd Stock-Market-Prediction
-   
-2. **Install the requirements.txt**:
-   ```bash 
-   pip install -r requirements.txt
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
 
-2. **Run ui7.py to run the Gradio interface**:
-   ```bash 
-   python run ui7.py
----
+### **Usage**
+```bash
+python main.py
+```
+
+Open http://localhost:7860 in your browser.
+
+### **Basic Workflow**
+1. Enter stock symbol (e.g., RELIANCE, TCS, INFY)
+2. Select exchange (NSE/BSE)
+3. Click "🚀 Start Analysis"
+4. View results and chat with AI
+
+## **AI Setup**
+
+### **Ollama Integration (Optional)**
+For enhanced AI features:
+
+1. **Download Ollama**: Visit [ollama.ai](https://ollama.ai/download)
+2. **Start Service**: `ollama serve`
+3. **Install Model**: `ollama pull llama3.2`
+4. **Refresh**: Click refresh button in the web interface
+
+### **Supported Models**
+* llama3.2:latest (Recommended)
+* llama3.2:1b (Faster)
+* Any Ollama-compatible model
+
+## **Contributing**
+* **💬 Join Discussions**: Share insights and feedback
+* **🐛 Report Issues**: Submit bugs or feature requests
+* **💡 Submit PRs**: Review and contribute code improvements
+
+### **Contributing Guidelines**
+1. Fork the repository
+2. Create feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit changes (`git commit -m 'Add AmazingFeature'`)
+4. Push to branch (`git push origin feature/AmazingFeature`)
+5. Open Pull Request
+
+## **Disclaimer**
+⚠️ **Educational purposes only**. Not financial advice. Always conduct your own research before investing.
+
+## **License**
+This project is protected under the MIT License. For more details, refer to the LICENSE file.
