@@ -33,10 +33,9 @@ AI-powered stock analysis dashboard combining traditional technical analysis wit
 ```
 └── Stock-Analysis-AI/
     ├── README.md
-    ├── main.py                     # Main application file
+    ├── ui7.py                     # Main application file
     ├── requirements.txt
-    └── assets/
-        └── charts/                # Generated chart outputs
+    
 ```
 
 ### **Key Components**
