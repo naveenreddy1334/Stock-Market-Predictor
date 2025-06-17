@@ -107,5 +107,4 @@ For enhanced AI features:
 ## **Disclaimer**
 ⚠️ **Educational purposes only**. Not financial advice. Always conduct your own research before investing.
 
-## **License**
-This project is protected under the MIT License. For more details, refer to the LICENSE file.
+
