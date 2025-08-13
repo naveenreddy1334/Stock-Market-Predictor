@@ -28,6 +28,12 @@ AI-powered stock market prediction dashboard combining traditional technical ana
 * **📊 Interactive Charts**: Price trends and volume analysis
 * **💰 Risk Assessment**: Volatility and support/resistance levels
 
+## **Demo**
+<p align="center">
+  <img src="https://github.com/naveenreddy1334/Stock-Market-Predictor/blob/main/Stock.gif?raw=true" alt="Demo" />
+</p>
+
+
 ## **Project Structure**
 
 ```
@@ -106,5 +112,6 @@ For enhanced AI features:
 
 ## **Disclaimer**
 ⚠️ **Educational purposes only**. Not financial advice. Always conduct your own research before investing.
+
 
 
